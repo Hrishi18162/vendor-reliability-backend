@@ -6,7 +6,7 @@ The backend provides authentication, vendor management, procurement management, 
 
 ---
 
-## 📌 Project Overview
+. Project Overview
 
 The Vendor Reliability Intelligence & Procurement Risk Management Platform is designed to help organizations monitor vendor performance, identify procurement risks, manage supplier relationships, and make data-driven procurement decisions.
 
@@ -30,7 +30,7 @@ The backend is responsible for:
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 The backend is designed to:
 
@@ -45,9 +45,9 @@ The backend is designed to:
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### 🔐 Authentication & Authorization
+### 🔐Authentication & Authorization
 
 * User registration
 * User login

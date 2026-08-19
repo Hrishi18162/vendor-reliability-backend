@@ -35,6 +35,7 @@ def get_purchase_order(
 
     if not purchase_order:
         raise HTTPException(
+            
             status_code=404,
             detail="Purchase order not found"
         )

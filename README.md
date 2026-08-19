@@ -6,7 +6,7 @@ The backend provides authentication, vendor management, procurement management, 
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 The Vendor Reliability Intelligence & Procurement Risk Management Platform is designed to help organizations monitor vendor performance, identify procurement risks, manage supplier relationships, and make data-driven procurement decisions.
 
@@ -30,7 +30,7 @@ The backend is responsible for:
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 The backend is designed to:
 
@@ -45,9 +45,9 @@ The backend is designed to:
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 🔐 Authentication & Authorization
+### Authentication & Authorization
 
 * User registration
 * User login
@@ -56,7 +56,7 @@ The backend is designed to:
 * Protected API endpoints
 * Authenticated user dependencies
 
-### 🏢 Vendor Management
+### Vendor Management
 
 The vendor API supports:
 
@@ -77,7 +77,7 @@ Vendor performance can include:
 
 ---
 
-## 🧮 Vendor Reliability & Risk Engine
+## Vendor Reliability & Risk Engine
 
 The backend contains a dedicated risk engine for evaluating vendor reliability.
 
@@ -92,7 +92,7 @@ The risk engine is designed to help procurement teams identify vendors that may 
 
 ---
 
-## 📦 Procurement Management
+## Procurement Management
 
 The procurement API provides functionality for:
 
@@ -104,7 +104,7 @@ The procurement API provides functionality for:
 
 ---
 
-## 🧾 Purchase Order Management
+## Purchase Order Management
 
 The purchase order API provides:
 
@@ -116,7 +116,7 @@ The purchase order API provides:
 
 ---
 
-## 📊 Dashboard
+## Dashboard
 
 The dashboard APIs provide summarized information for the Angular dashboard.
 
@@ -131,7 +131,7 @@ Possible dashboard information includes:
 
 ---
 
-## 📈 Analytics
+## Analytics
 
 The analytics APIs provide data that can be used to analyze:
 
@@ -143,7 +143,7 @@ The analytics APIs provide data that can be used to analyze:
 
 ---
 
-## 📑 Reports
+## Reports
 
 The reports module provides API functionality for procurement and vendor-related reporting.
 
@@ -157,7 +157,7 @@ Reports can include:
 
 ---
 
-## 🔔 Notifications
+## Notifications
 
 The notification APIs support system and procurement-related notifications.
 
@@ -171,7 +171,7 @@ Examples include:
 
 ---
 
-## 📝 Audit Logs
+## Audit Logs
 
 The audit log functionality provides visibility into system activities.
 
@@ -186,7 +186,7 @@ It supports:
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Backend
 
@@ -213,7 +213,7 @@ It supports:
 
 ---
 
-## 🏗️ Backend Architecture
+## Backend Architecture
 
 ```text
 Angular Frontend
@@ -241,7 +241,7 @@ PostgreSQL Database
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Vendor_Reliability_Backend/
@@ -283,7 +283,7 @@ Vendor_Reliability_Backend/
 
 ---
 
-## 🗄️ Database
+## Database
 
 The application uses **PostgreSQL** as its relational database.
 
@@ -300,7 +300,7 @@ The database layer is responsible for:
 
 ---
 
-## 🔐 Environment Configuration
+## Environment Configuration
 
 Sensitive configuration should not be committed to GitHub.
 
@@ -326,7 +326,7 @@ ACCESS_TOKEN_EXPIRE_MINUTES=30
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -347,7 +347,7 @@ Verify PostgreSQL is available and running.
 
 ---
 
-## 📥 Clone the Repository
+## Clone the Repository
 
 ```bash
 git clone https://github.com/Hrishi18162/vendor-reliability-backend.git
@@ -361,7 +361,7 @@ cd vendor-reliability-backend
 
 ---
 
-## 🐍 Create a Virtual Environment
+## Create a Virtual Environment
 
 Create the environment:
 
@@ -389,7 +389,7 @@ Then activate again:
 
 ---
 
-## 📦 Install Dependencies
+## Install Dependencies
 
 If `requirements.txt` is available:
 
@@ -405,7 +405,7 @@ pip install fastapi uvicorn sqlalchemy psycopg2-binary pydantic python-jose pass
 
 ---
 
-## 🗄️ Configure PostgreSQL
+## Configure PostgreSQL
 
 Create the PostgreSQL database:
 
@@ -419,7 +419,7 @@ Do not publish database passwords or credentials.
 
 ---
 
-## ▶️ Run the Backend
+## Run the Backend
 
 Start the FastAPI development server:
 
@@ -435,7 +435,7 @@ http://127.0.0.1:8000
 
 ---
 
-## 📚 API Documentation
+## API Documentation
 
 FastAPI automatically provides interactive API documentation.
 
@@ -466,7 +466,7 @@ Swagger can be used to:
 
 ---
 
-## 🔗 API Modules
+## API Modules
 
 The backend contains API routers for:
 
@@ -487,7 +487,7 @@ The backend contains API routers for:
 
 ---
 
-## 🔄 Authentication Flow
+## Authentication Flow
 
 ```text
 User
@@ -518,7 +518,7 @@ Protected endpoints require a valid authentication token.
 
 ---
 
-## 🔄 Application Data Flow
+## Application Data Flow
 
 ```text
 Angular Frontend
@@ -542,7 +542,7 @@ PostgreSQL
 
 ---
 
-## 🧪 Testing
+## Testing
 
 API endpoints can be tested using FastAPI Swagger:
 
@@ -570,7 +570,7 @@ Recommended testing sequence:
 
 ---
 
-## 📊 Vendor Risk Evaluation
+## Vendor Risk Evaluation
 
 The backend includes a risk engine service:
 
@@ -597,7 +597,7 @@ This allows procurement teams to identify vendors that may require closer monito
 
 ---
 
-## 📤 Export & Reporting
+## Export & Reporting
 
 The backend includes export/report functionality for procurement and vendor-related information.
 
@@ -609,7 +609,7 @@ The export functionality can be extended to support formats such as:
 
 ---
 
-## 🔒 Security
+## Security
 
 Security considerations include:
 
@@ -633,7 +633,7 @@ For production deployment:
 
 ---
 
-## 📌 Development Status
+## Development Status
 
 ### Milestone 1 — Backend Foundation
 
@@ -674,15 +674,15 @@ For production deployment:
 
 ---
 
-## 🔗 Frontend Repository
+## Frontend Repository
 
 The Angular frontend is maintained in a separate repository:
 
-https://github.com/Hrishi18162/vendor-reliability-frontend
+[https://github.com/Hrishi18162/vendor-reliability-frontend](https://github.com/Hrishi18162/vendor-reliability-frontend)
 
 ---
 
-## 🌐 Local Development URLs
+## Local Development URLs
 
 ### Backend
 
@@ -710,17 +710,17 @@ http://localhost:4200
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Hrishi18162**
 
 GitHub:
 
-https://github.com/Hrishi18162
+[https://github.com/Hrishi18162](https://github.com/Hrishi18162)
 
 ---
 
-## 📄 License
+## License
 
 This project is currently intended for educational, development, and project demonstration purposes.
 
@@ -728,10 +728,11 @@ A formal open-source license can be added when the project is ready for public d
 
 ---
 
-## ⭐ Project Summary
+## Project Summary
 
 The **Vendor Reliability Intelligence & Procurement Risk Management Platform** provides a centralized backend for vendor performance monitoring, procurement management, risk assessment, purchase order tracking, analytics, reporting, notifications, and audit logging.
 
 The FastAPI backend serves as the core API layer between the Angular frontend and PostgreSQL database, providing secure and structured access to procurement and vendor information.
 
 The platform aims to help procurement teams **identify vendor risks, improve supplier visibility, monitor procurement performance, and make data-driven procurement decisions**.
+
